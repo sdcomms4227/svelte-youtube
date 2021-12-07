@@ -2,7 +2,7 @@
   import Nested from "../components/Nested.svelte";
 
   let title = "개발자의 품격";
-  let htmlTitle = "<span>개발자의 품격</span>";
+  let htmlTitle = "<span class='span1'>개발자의 품격</span>";
   let src = "https://heropy.blog/css/images/vendor_icons/svelte.png";
 
   let count = 0;
@@ -73,7 +73,7 @@
 <img {src} alt="IMG" />
 
 <style>
-  :global(span) {
+  :global(.span1) {
     color: red;
   }
 </style>

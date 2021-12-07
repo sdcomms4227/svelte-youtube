@@ -38,3 +38,4 @@
 <p>Hello개발자의 품격 {seconds}</p>
 
 <button type="button" on:click={addCount}>Add Count</button>
+<p>Count: {count}</p>
